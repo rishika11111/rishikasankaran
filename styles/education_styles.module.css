@@ -1,0 +1,11 @@
+.titles{
+color: pink !important;
+text-align: center;
+}
+
+.dates
+{
+ float: right;
+  width: 50%;
+  text-align: right;
+}

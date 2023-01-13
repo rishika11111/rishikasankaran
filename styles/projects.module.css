@@ -1,0 +1,28 @@
+.titles{
+color: pink !important;
+text-align: center;
+}
+
+.company{
+font-weight: bold;
+float:left;
+width: 50%;
+text-align: left;
+}
+
+.role{
+font-style: italic;
+}
+.dates
+{
+ float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.gpa
+{
+ float: right;
+  width: 50%;
+  text-align: right;
+}
