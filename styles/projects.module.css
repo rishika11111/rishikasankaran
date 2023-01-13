@@ -1,18 +1,24 @@
 .titles{
-color: pink !important;
+color: hotpink !important;
 text-align: center;
 }
 
-.company{
+.project{
 font-weight: bold;
 float:left;
 width: 50%;
 text-align: left;
 }
 
-.role{
+.links{
+color: hotpink;
+}
+.tech{
 font-style: italic;
 }
+
+
+
 .dates
 {
  float: right;

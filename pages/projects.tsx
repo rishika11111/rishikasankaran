@@ -1,54 +1,53 @@
 import styles from '../styles/Home.module.css'
-import exp_styles from '../styles/experience.module.css'
+import project_styles from '../styles/projects.module.css'
+import Link from 'next/link'
 
-export default function Experience() {
+export default function Projects() {
   return (
   <>
-      <h2 className={exp_styles.titles}>EXPERIENCE</h2>
-      <p className={exp_styles.company}> Amazon, Irvine, California | Amazon Devices - Luna </p>
-       <p className={exp_styles.dates}>Jun 2022- Sep 2022 </p>
-       <p className={exp_styles.role}>Software Development Engineer Intern</p>
+      <h2 className={project_styles.titles}>PROJECTS</h2>
+      <p className={project_styles.project}> SlamShut |
+      <Link href='https://rishika11111.github.io/SlamShut/' className={project_styles.links} legacyBehavior>
+      <a target="_blank" rel="noopener noreferrer">View Project</a></Link></p>
+       <p className={project_styles.dates}>Nov 2022 </p>
+       <p className={project_styles.tech}>Unity, C# and GIMP</p>
        <ul>
-        <li>Created a reports page portraying player usage statistics of games using NextJS, TypeScript and Kotlin.</li>
-        <li>Delivered visualizations of game usage metrics using Highcharts and Amazon’s internal tools. </li>
-        <li>Focused on test-driven development with Cypress resulting in 98% accuracy.</li>
-        <li> Proposed alternate approaches to project implementation leading to 85% reduction in costs.</li>
+        <li>Created a 2D game with graphics, animations and particle effect simulations in Unity and GIMP</li>
+        <li>Supported event handling and logical responses with C# Scripts.</li>
       </ul>
 
-        <p className={exp_styles.company}> JaysanTech Private Limited, Bangalore, India </p>
-        <p className={exp_styles.dates}> Mar 2021- Aug 2021</p>
-        <p className={exp_styles.role}>Technical Subject Matter Expert Intern</p>
+      <hr/>
+       <p className={project_styles.project}>A Multitask Detection System |
+      <Link href='http://ymerdigital.com/uploads/YMER201300.pdf' className={project_styles.links} legacyBehavior>
+      <a target="_blank" rel="noopener noreferrer">View Publication</a></Link>
+       </p>
+        <p className={project_styles.dates}>2020 – 2021</p>
+        <p className={project_styles.tech}>Python, Flask, OpenCV and Deep Learning</p>
         <ul>
-        <li>Constructed specialized evaluations in client-specific technical domains as AWS, NextJS and SAP among others</li>
-        <li>Brainstormed analytical and creative assessment questionnaires for companies predominantly in the IT sectors. </li>
-        <li>Achieved 95% and 99% satisfaction rates on first and second drafts respectively.</li>
+        <li> Published a paper in Ymer journal</li>
+         <li>Produced an integrated platform having accuracy of 80% using Flask and HTML comprising three sub-components:
+         <ul>
+            <li>Covid-19 Detection: Implemented CNN on the dataset for classification of instances into healthy or Covid-infected
+            individuals.</li>
+            <li>Face and Eye Detection System: Deployed Viola Jones algorithm for narrowing out facial features on input image.</li>
+            <li>Drowsiness Detection System for Drivers: A CNN model raises an alarm alerting when the driver falls asleep. </li>
+         </ul>
+         </li>
         </ul>
 
-        <p className={exp_styles.company}> ICSoln, Bangalore, India </p>
-        <p className={exp_styles.dates}> Nov 2020 - Dec 2020</p>
-        <p className={exp_styles.role}> Python and Machine Learning Intern </p>
-        <ul>
-        <li>Spearheaded a team of 3 to predict the price of automobiles based on a given dataset.</li>
-        <li>Performed exploratory data analysis on the dataset using Pandas, Matplotlib and Seaborn.</li>
-        <li>Developed Machine Learning models with accuracy rate of 85%.</li>
-        </ul>
 
-        <p className={exp_styles.company}> RYD, Bangalore, India</p>
-        <p className={exp_styles.dates}>Jul 2020 - Aug 2020</p>
-        <p className={exp_styles.role}> Python Developer Intern</p>
-        <ul>
-        <li>Produced a 98% precise Computer Vision model for problem-specific image manipulation.</li>
-        <li>Tested out YOLO, CNN and Detectron algorithms for muti-batch processing and image segmentation.</li>
-        <li>Employed YOLO with an initial accuracy of 85% tested on 30000 images.</li>
-        </ul>
+      <hr/>
 
-        <p className={exp_styles.company}>Calligo Technologies, Bangalore, India</p>
-        <p className={exp_styles.dates}>Jan 2018</p>
-        <p className={exp_styles.role}>Big Data and Storage Technologies Intern</p>
+        <p className={project_styles.project}>Brief Analysis of Success Rates of IPL Teams (Season-wise)</p>
+        <p className={project_styles.dates}>Aug 2020</p>
+        <p className={project_styles.tech}>Python and Data Science</p>
         <ul>
-        <li>Drafted database tests and employed Sysbench commands to draw statistical analysis and latency performances of data
-            queries on cache and hard drive.</li>
+        <li>Synthesized a dataset by extracting statistical values of past performances from Wikipedia sources.</li>
+        <li>Conducted a comparative analysis on the performances of various cricket teams in Indian Premier League (IPL) by
+            plotting a bar chart in accordance with Cairo’s four principles.</li>
         </ul>
   </>
   )
 }
+
+export {};

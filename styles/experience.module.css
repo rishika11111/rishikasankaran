@@ -1,13 +1,17 @@
 .titles{
-color: pink !important;
+color: hotpink !important;
 text-align: center;
 }
 
-.uni{
+.company{
 font-weight: bold;
 float:left;
 width: 50%;
 text-align: left;
+}
+
+.role{
+font-style: italic;
 }
 .dates
 {
