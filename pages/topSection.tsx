@@ -8,7 +8,7 @@ export default function TopSection() {
         <p>Irvine, California | (949) 396-9169 | rsankar1@uci.edu</p>
         <Link href='https://www.linkedin.com/in/rishikasankaran/' legacyBehavior>
             <a target="_blank" rel="noopener noreferrer">
-            <button target="_blank">LinkedIn</button>
+            <button>LinkedIn</button>
             </a>
         </Link>
         <Link href='https://github.com/rishika11111' legacyBehavior>

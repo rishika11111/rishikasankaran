@@ -2,11 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
-import TopSection from './topSection.tsx'
+import TopSection from './topSection'
 import Link from 'next/link';
-import Education from './education.tsx'
-import Experience from './experience.tsx'
-import Projects from './projects.tsx'
+import Education from './education'
+import Experience from './experience'
+import Projects from './projects'
 export default function Home() {
     return (
     <>
