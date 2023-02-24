@@ -7,6 +7,7 @@ import Link from 'next/link';
 import Education from './education'
 import Experience from './experience'
 import Projects from './projects'
+import AboutMe from './aboutMe'
 export default function Home() {
     return (
     <>
@@ -16,6 +17,9 @@ export default function Home() {
         <main>
             <div className={`${styles.topSection}`}>
                 <TopSection/>
+            </div>
+            <div className={styles.tile}>
+                <AboutMe/>
             </div>
             <div className={styles.tile}>
                 <Education/>

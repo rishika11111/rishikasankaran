@@ -1,0 +1,23 @@
+.titles{
+color: hotpink !important;
+text-align: center;
+}
+
+.profilePic {
+float:left;
+margin: 20px;
+
+}
+
+.bio{
+line-height: 2;
+text-align: justify;
+margin: 10px;
+}
+
+.bio_tagline
+{
+font-style: italic;
+padding: 30px;
+text-align: center;
+}
