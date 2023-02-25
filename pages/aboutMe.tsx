@@ -16,17 +16,19 @@ export default function Education() {
         </div>
       <div className={aboutMe_styles.bio}>
         <span className={aboutMe_styles.bio_tagline}>
-        "It is said that passion is the elixir for the soul, one that rejuvenates the spirit like no other."
-        </span>
+        Passion is the elixir for the soul, one that rejuvenates the spirit like no other.
+        </span><br/>
         <br/>
-        Years have passed since I wrote my first “Hello World” program in Java, and yet, today I feel the
-        very same wave of excitement when I come up with a coding logic and the same sense of euphoria that
-        comes after its successful execution. My zeal for coding has led across the world and has been a constant
+        My zeal for coding has led across the world and has been a constant
         push to pursue my Masters in Computer Science from UC, Irvine. I have developed competence and far-reaching
         interest in Wed Development, Deep Learning, AWS, Python and Computer Vision. My courses during my graduate
         study have imparted knowledge of subjects as Data Structures, Advanced Algorithms, Database Management,
         Operating System, Advanced Problem Solving and Machine Learning, to name a few. This, combined with my
         academic projects, helped me hone my skills and emerge as a more passionate and focused individual.
+        In short, I am someone with a burning passion and relentless persistence to do what it takes,
+        and I come with a light-hearted vibe and great inter-personal skills.
+        In the upcoming years, I wish to have a steep-learning curve while being able to contribute my best as an
+        individual.
       </div>
   </>
   )
