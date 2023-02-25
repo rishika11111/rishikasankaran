@@ -8,6 +8,7 @@ import Education from './education'
 import Experience from './experience'
 import Projects from './projects'
 import AboutMe from './aboutMe'
+import Skills from './skills'
 export default function Home() {
     return (
     <>
@@ -29,6 +30,9 @@ export default function Home() {
             </div>
             <div className={styles.tile}>
                 <Projects/>
+            </div>
+            <div className={styles.tile}>
+                <Skills/>
             </div>
         </main>
     </>
