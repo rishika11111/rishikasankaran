@@ -6,7 +6,7 @@ export default function SkillsTable() {
     <table className={skillsTableStyles.container}>
     <tbody>
         <tr>
-            <th scope="row" width='40%'>LANGUAGES / DATABASES</th>
+            <th scope="row">LANGUAGES / DATABASES</th>
             <td>Python, Kotlin, PostgreSQL, MySQL, TypeScript</td>
         </tr>
         <tr>

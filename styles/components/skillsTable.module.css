@@ -1,12 +1,7 @@
-.table{
-color: white;
+.container th
+{
+    width: 40%;
 }
-
-/*
-#323C50
-#2C3446
-.yellow { color: #FFF842; }
-*/
 .container{
   font-weight: bold;
   text-align: left;
